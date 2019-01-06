@@ -1,0 +1,215 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #a9d7d1;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.conteiner {
+    background-color: white;
+    margin: 20px 215px;
+    border-radius: 5px;
+    
+}
+
+.what {
+    display: inline-block;
+    margin: 30px 0px;
+}
+
+.chekout {
+    text-align: center;
+    margin: 0px 60px;
+}
+
+label {
+    display: block;
+    margin: 20px 0px;
+    
+}
+
+.name {
+    display: inline-block;
+    padding: 0px 100px 0px 5px;
+    block-size: 25px;
+    margin: 10px 0px 10px 30px;
+    border-radius: 5px;
+    position: relative;
+     
+   
+}
+
+.nameholder {
+    display: inline-block;
+    text-align: right;
+    padding-left: 200px;
+    position: relative;
+    left: 15px;
+
+}
+
+.email {
+    display: inline-block;
+    margin-left: 200px;
+    text-align: right;
+    position: relative;
+    left: 14px;
+}
+.emailput {
+    display: inline-block;
+    padding: 0px 100px 0px 5px;
+    block-size: 25px;
+    margin: 10px 0px 10px 30px;
+    border-radius: 5px;  
+    position: relative;
+    right: -1px;
+}
+
+.age {
+    display: inline-block;
+    margin-left: 200px;
+    position: relative;
+    text-align: right;
+    left: 23px;
+}
+
+.inputage {
+    display: inline-block;
+    padding: 0px 100px 0px 5px;
+    position: relative;
+    block-size: 25px;
+    margin: 10px 0px 10px 38px;
+    border-radius: 5px;
+    left: 4px;
+}
+
+.role {
+    display: inline-block;
+    margin-top: 20px;
+    position: relative;
+    text-align: end;
+    max-width: 250px;
+    left: 10px;
+}
+
+.roleselect {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    block-size: 25px;
+    margin: 10px 160px 10px 30px;
+    border-radius: 5px;
+    bottom: 15px;
+    left: 6px;
+}
+
+.recommendto {
+    display: inline-block;
+    max-width: 250px;
+    position: relative;
+    text-align: end;
+    left: 15px;
+}
+.reco {
+    display: inline-block;
+    max-width: 90px;
+    position: relative;
+    text-align: left;
+    padding: 0px 200px 0px 40px;
+}
+
+.mostlike {
+    display: inline-block;
+    padding-right: 5px;
+    position: relative;
+    text-align: end;
+    margin-left: 30px;
+    left: 17px;
+
+}
+
+.like {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    block-size: 25px;
+    margin: 10px 160px 10px 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+    left: 13px;
+}
+
+.improved {
+    display: inline-block;
+    text-align: end;
+    margin-left: 100px;
+    position: relative;
+    max-width: 150px;
+    bottom: 160px;
+    left: 17px;
+}
+
+.longlist {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    list-style: none;
+    margin-right: 100px;
+    left: 5px;
+}
+
+.text {
+    display: inline-block;
+    width: 236px;
+    height: 70px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 5px;
+}
+
+.commet {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    bottom: 45px;
+    
+}
+
+.button {
+    height: 50px;
+    width: 100px;
+    display: block;
+    position: relative;
+    bottom: 10px;
+    border: 1px solid white;
+    margin:0 auto;
+    border-radius: 10px;
+    background-color: aquamarine;
+    border-color: black;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+
+}
+
+.button:hover {
+    width: 110px;
+    height: 70px;
+    background-color: darkorange;
+}
+
+.secretbutton {
+    margin: 30px 0px;
+    background-color: white;
+    border-color: white;
+    color: white;
+    box-shadow: rgb (255, 255, 255);
+    position: relative;
+    right: 400px;
+}
+.secretbutton:hover {
+    background-color: darkred;
+    position: relative;
+    right: 300px;
+}

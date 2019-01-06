@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="title">Survey Form</h1>
+    <section class="conteiner">
+        <h4 class="what">Let us know how we can improve freeCodeCamp</h4>
+        <form class="chekout" action="." method="text">
+            <label name="name" class="nameholder" for="namedata">*Name:</label>
+             <input type="text"  name="name" id="namedata" placeholder="Enter your name" class="name" required>
+             <label name="email" class="email">*Email:</label>
+             <input type="email"  name="email" placeholder="Enter your Email" required class="emailput">
+             <label name="age" class="age">*Age:</label>
+             <input type="number"  name="age" placeholder="Enter your age" class="inputage" required min="1">
+             <label name="role" class="role">Which option best describes your current role?</label>
+             <!--Не сильно понимаю как работает текст снизу-->
+             <select name="role" class="roleselect">
+                    <option value="student" selected>Student</option>
+                    <option value="job">Full Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option value="nottosay">Prefer not to say</option>
+                    <option value="other">Other</option>
+                  </select>
+             <!--Не сильно понимаю как работает текст сверху-->
+            
+             <label name="recommend" class="recommendto">*How likely is that you would recommend freeCodeCamp to a friend?
+                </label>
+                <label class="reco"><input type="radio" name="recommend" value="Definitely" checked>Definitely
+                <input type="radio" name="recommend" value="Maybe">Maybe
+                <input type="radio" name="recommend" value="Not sure">Not sure
+                </label>
+             <!--Зачем здесь value? Кто он?(пример выше)-->
+            
+             <label name="mostlike" class="mostlike">What do you like most in FCC:</label>
+             <select name="mostlike" class="like">
+                    <option value="challenges" selected>Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="opensource">Open Source</option>
+                    <option value="runningbycircle">Running by circle</option>
+                  </select>
+                  <label name="." class="improved">Things that should be improved in the future
+                        (Check all that apply):</label>
+                        <ul class="longlist">
+                        <li><input type="checkbox" name="improved" value="Front-end Projects">Front-end Projects</li>
+                        <li><input type="checkbox" name="improved" value="Back-end Projects">Back-end Projects</li>
+                        <li><input type="checkbox" name="improved" value="Data Visualization">Data Visualization</li>
+                        <li><input type="checkbox" name="improved" value="Challenges">Challenges</li>
+                        <li><input type="checkbox" name="improved" value="Open Source Community">Open Source Community</li>
+                        <li><input type="checkbox" name="improved" value="Gitter help rooms">Gitter help rooms</li>
+                        <li><input type="checkbox" name="improved" value="Videos">Videos</li>
+                        <li><input type="checkbox" name="improved" value="City Meetups">City Meetups</li>
+                        <li><input type="checkbox" name="improved" value="Wiki">Wiki</li>
+                        <li><input type="checkbox" name="improved" value="Forum">Forum</li>
+                        <li><input type="checkbox" name="improved" value="Additional Courses">Additional Courses</li>
+                    </ul>
+                  <label class="commet">Any Comments or Suggestions?</label> 
+                    <textarea class="text" name="commet" placeholder="Enter your comment here..."></textarea>
+                <button class="button" type="submit">Submit</button>
+                <button class="secretbutton" onclick="location.href='tenor.gif'" type="button" target="_blank">
+                    SecretButton</button>
+
+        </form>
+    </section>
+    
+</body>
+</html>
